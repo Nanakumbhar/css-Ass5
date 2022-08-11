@@ -1,0 +1,111 @@
+.body,html {
+    background-color: yellowgreen;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30vh;
+    gap: 50px;
+
+}
+
+.box {
+    width: 100px;
+    height: 100px ;
+    background-color: blue;
+    animation: box1 1s infinite alternate linear ;
+
+}
+@keyframes box1 {
+    0% {
+        transform: skewX(0deg);
+    }
+    100% {
+        transform: skewX(-30deg);
+    }
+}
+
+.box1 {
+    width: 100px;
+    height: 100px ;
+    background-color: red ;
+    animation: box2 1s infinite alternate linear ;
+
+}
+@keyframes box2 {
+    0% {
+        transform: skewX(0deg) rotate(0deg);
+        
+    }
+    100% {
+        transform: skewX(-40deg) rotate(-30deg);
+       
+    }
+}
+.box2 {
+    width: 100px;
+    height: 100px ;
+    background-color:pink;
+    animation: box3 3s infinite ;
+
+}
+@keyframes box3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.box01 {
+    width: 100px;
+    height: 100px ;
+    background-color:orange;
+    border: 1px solid black;
+    animation: box4 2s infinite alternate linear ;
+
+}
+@keyframes box4 {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(70deg);
+    }
+}
+.box02 {
+    width: 100px;
+    height: 100px ;
+    background-color:brown;
+    border: 1px solid black;
+    animation: box5 2s infinite alternate linear ;
+
+}
+@keyframes box5 {
+    0% {
+        transform: rotatey(0deg);
+    }
+    100% {
+        transform: rotatey(70deg);
+    }
+}
+
+.box03 {
+    width: 100px;
+    height: 100px ;
+    background-color: crimson;
+    border: 1px solid black;
+    animation: box6 2s infinite alternate linear ;
+
+}
+@keyframes box6 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}

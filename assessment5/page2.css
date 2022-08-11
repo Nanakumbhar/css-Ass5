@@ -1,0 +1,79 @@
+
+*{background-color: yellow;
+
+}
+
+.container{
+    
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2rem;
+    align-content: center;
+    
+
+}
+.box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    align-items: center;
+}
+#box1{
+    transition-property: width;
+    transition: 3s linear;
+    
+}
+#box1:hover
+{
+    width:400px
+}
+#box2{
+    transition-property: width,height;
+    transition-duration: 2s,4s;
+}
+#box2:hover{
+    width:200px;
+    height:200px
+
+}
+#box3{
+    transition-property: width;
+    
+    transition: 2s linear;
+    
+}
+#box3:hover{ width:400px
+
+}
+#box4{transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    
+}
+#box4:hover{ width:400px
+
+}
+#box5{transition-property: width;
+    transition-duration: 5s ;
+    transition-delay: 1s  ;
+}
+#box5:hover{ width:400px
+
+}
+
+#box6{transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+#box6:hover{ width:400px
+
+}
+#box7{transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function:ease-out
+}
+
+#box7:hover{ width:400px
+
+}
